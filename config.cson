@@ -17,6 +17,9 @@
     ]
     projectHome: "/Users/boris/Code"
   docblockr:
+    extra_tags: [
+      "@author Boris Strahija  <bstrahija@gmail.com>"
+    ]
     spacer_between_sections: true
   editor:
     fontFamily: "Operator Mono"
@@ -30,15 +33,20 @@
   "genesis-ui":
     distractionFree: {}
   jshint: {}
+  linter:
+    errorPanelHeight: 27
   "linter-js-standard": {}
   minimap:
     plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       pigments: true
       pigmentsDecorationsZIndex: 0
   "one-dark-ui":
     fontSize: 11
   "package-sync":
     createOnChange: true
+    forceOverwrite: true
   "php-cs-fixer":
     executablePath: "/Users/boris/.composer/vendor/fabpot/php-cs-fixer/php-cs-fixer"
     runPhpWithoutAnyIni: true
