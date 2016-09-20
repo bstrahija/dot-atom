@@ -1,15 +1,7 @@
 "*":
-  "SFTP-deployment":
-    uploadOnSave: false
   "atom-beautify":
-    general:
-      _analyticsUserId: "5a595e65-2a7d-4111-a414-2e9777b28978"
     html:
       end_with_newline: true
-  "atom-ftp-editor":
-    autoDownloadOnOpen: false
-    autoUploadOnSave: false
-    presistDownload: false
   core:
     disabledPackages: [
       "php-integrator-linter"
@@ -20,6 +12,8 @@
       "linter-sass-lint"
       "linter-scss-lint"
       "activate-power-mode"
+      "metrics"
+      "exception-reporting"
     ]
     projectHome: "/Users/boris/Code"
   docblockr:
@@ -33,8 +27,6 @@
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
-  "exception-reporting":
-    userId: "5ae14954-05fa-f639-8924-3b5c2acdad28"
   "genesis-ui":
     distractionFree: {}
   jshint: {}
