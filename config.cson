@@ -19,6 +19,7 @@
       "linter-csslint"
       "linter-sass-lint"
       "linter-scss-lint"
+      "activate-power-mode"
     ]
     projectHome: "/Users/boris/Code"
   docblockr:
