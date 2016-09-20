@@ -1,0 +1,53 @@
+[
+  {
+    title: "Varewo"
+    group: "Creo"
+    paths: [
+      "/Users/boris/Code/creo/varewo"
+    ]
+    icon: "icon-home"
+    settings: {}
+    devMode: false
+    template: null
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "OptimizeLeads"
+    group: "Influendo"
+    paths: [
+      "/Users/boris/Code/influendo/optimize-leads"
+    ]
+    icon: "icon-rocket"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "KoVozi"
+    group: "Personal"
+    paths: [
+      "/Users/boris/Code/personal/kovozi"
+    ]
+    icon: "icon-versions"
+    settings: {}
+    devMode: false
+    template: null
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+]

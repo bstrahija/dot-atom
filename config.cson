@@ -1,0 +1,46 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5a595e65-2a7d-4111-a414-2e9777b28978"
+    html:
+      end_with_newline: true
+  core:
+    disabledPackages: [
+      "php-integrator-linter"
+      "php-integrator-call-tips"
+      "language-gfm"
+      "wrap-guide"
+    ]
+    projectHome: "/Users/boris/Code"
+  docblockr:
+    spacer_between_sections: true
+  editor:
+    fontFamily: "Operator Mono"
+    fontSize: 12
+    invisibles: {}
+    lineHeight: 3
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "5ae14954-05fa-f639-8924-3b5c2acdad28"
+  "genesis-ui":
+    distractionFree: {}
+  "one-dark-ui":
+    fontSize: 11
+  "php-cs-fixer":
+    executablePath: "/Users/boris/.composer/vendor/fabpot/php-cs-fixer/php-cs-fixer"
+    runPhpWithoutAnyIni: true
+    showInfoNotifications: true
+  "php-integrator-autocomplete-plus": {}
+  "php-integrator-symbol-viewer": {}
+  "seti-ui":
+    themeColor: "Green"
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
