@@ -16,6 +16,9 @@
       "php-integrator-call-tips"
       "language-gfm"
       "wrap-guide"
+      "linter-csslint"
+      "linter-sass-lint"
+      "linter-scss-lint"
     ]
     projectHome: "/Users/boris/Code"
   docblockr:
@@ -27,13 +30,18 @@
     lineHeight: 3
     scrollPastEnd: true
     showIndentGuide: true
-    showInvisibles: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "5ae14954-05fa-f639-8924-3b5c2acdad28"
   "genesis-ui":
     distractionFree: {}
+  jshint: {}
+  "linter-js-standard": {}
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
   "one-dark-ui":
     fontSize: 11
   "php-cs-fixer":
@@ -42,6 +50,7 @@
     showInfoNotifications: true
   "php-integrator-autocomplete-plus": {}
   "php-integrator-symbol-viewer": {}
+  pigments: {}
   "seti-ui":
     themeColor: "Green"
   welcome:
