@@ -45,6 +45,8 @@
       pigmentsDecorationsZIndex: 0
   "one-dark-ui":
     fontSize: 11
+  "package-sync":
+    createOnChange: true
   "php-cs-fixer":
     executablePath: "/Users/boris/.composer/vendor/fabpot/php-cs-fixer/php-cs-fixer"
     runPhpWithoutAnyIni: true
