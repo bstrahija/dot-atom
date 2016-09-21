@@ -14,12 +14,18 @@
       "activate-power-mode"
       "metrics"
       "exception-reporting"
+      "atom-typescript"
+      "markdown-scroll-sync"
+      "php-integrator-refactoring"
+      "imdone-atom"
+      "symbols-tree-view"
+      "code-peek"
+      "php-integrator-symbol-viewer"
     ]
     projectHome: "/Users/boris/Code"
+  "custom-title":
+    template: "<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   docblockr:
-    extra_tags: [
-      "@author Boris Strahija  <bstrahija@gmail.com>"
-    ]
     spacer_between_sections: true
   editor:
     fontFamily: "Operator Mono"
@@ -30,11 +36,14 @@
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
+  fonts:
+    fontFamily: "PT Mono"
   "genesis-ui":
     distractionFree: {}
   jshint: {}
   linter:
     errorPanelHeight: 27
+    lintOnFly: false
   "linter-js-standard": {}
   minimap:
     plugins:
@@ -56,6 +65,13 @@
   pigments: {}
   "seti-ui":
     themeColor: "Green"
+  "todo-show":
+    ignoreThesePaths: [
+      "**/node_modules/"
+      "**/vendor/"
+      "**/bower_components/"
+      "resources/assets/vendor/kode/"
+    ]
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
