@@ -23,7 +23,23 @@
 '.text.html.php':
   '<?php ':
     'prefix': 'phpe'
-    'body': '<?php echo $0; ?>'
+    'body': '<?php echo $1; ?>'
+
+  'print_r and die':
+    'prefix': 'pprd'
+    'body': 'echo "<pre>"; print_r(${1}); echo "</pre>"; die();'
+
+  'print_r':
+    'prefix': 'ppr'
+    'body': 'echo "<pre>"; print_r(${1}); echo "</pre>";'
+
+  'var_dump and die':
+    'prefix': 'pprvd'
+    'body': 'echo "<pre>"; print_r(var_dump(${1})); echo "</pre>"; die();'
+
+  'var_dump':
+    'prefix': 'pprv'
+    'body': 'echo "<pre>"; print_r(var_dump(${1})); echo "</pre>";'
 
   '<?php echo(); ?>':
     'prefix': 'phpx'
@@ -31,4 +47,19 @@
 
 $0
 
+"""
+
+  'namespace':
+    'prefix': 'ns'
+    'body': 'namespace $0;'
+
+  '@author':
+    'prefix': 'author'
+    'body': '@author Boris Strahija <bstrahija@gmail.com>'
+
+  'met':
+    'prefix': 'met'
+    'body': """${1:public} function ${2:name}(${3:$data}) {
+    $4
+}
 """
