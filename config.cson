@@ -21,6 +21,16 @@
       "symbols-tree-view"
       "code-peek"
       "php-integrator-symbol-viewer"
+      "autoclose-html"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
     ]
     projectHome: "/Users/boris/Code"
   "custom-title":
@@ -36,10 +46,12 @@
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
+  "file-icons": {}
   fonts:
     fontFamily: "PT Mono"
   "genesis-ui":
     distractionFree: {}
+  "glowing-cursor": {}
   jshint: {}
   linter:
     errorPanelHeight: 27
@@ -72,6 +84,10 @@
       "**/bower_components/"
       "resources/assets/vendor/kode/"
     ]
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
