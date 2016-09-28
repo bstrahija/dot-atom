@@ -1,7 +1,11 @@
 "*":
   "atom-beautify":
+    general:
+      _analyticsUserId: "668aabdf-da30-44a6-88ee-9a8c4053e5f7"
     html:
       end_with_newline: true
+    php:
+      standard: "PSR2"
   "atom-ctags":
     buildTimeout: 60000
     cmdArgs: "--exclude=node_modules"
@@ -99,7 +103,6 @@
       "resources/assets/vendor/kode/"
     ]
   "tree-view":
-    autoReveal: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false

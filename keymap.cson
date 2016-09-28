@@ -33,3 +33,9 @@
 
 '.editor:not([mini])':
   'alt-cmd-p': 'remote-sync:upload-file'
+
+'.editor:not([mini])':
+  'alt-cmd-r': 'tree-view:reveal-active-file'
+
+'.editor':
+  'ctrl-alt-b': 'atom-beautify:beautify-editor'
