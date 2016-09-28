@@ -2,27 +2,31 @@
   "atom-beautify":
     html:
       end_with_newline: true
+  "atom-ctags":
+    buildTimeout: 60000
+    cmdArgs: "--exclude=node_modules"
   core:
     disabledPackages: [
-      "php-integrator-linter"
-      "php-integrator-call-tips"
       "language-gfm"
       "wrap-guide"
       "linter-csslint"
       "linter-sass-lint"
       "linter-scss-lint"
-      "activate-power-mode"
       "metrics"
       "exception-reporting"
       "atom-typescript"
       "markdown-scroll-sync"
-      "php-integrator-refactoring"
       "imdone-atom"
       "symbols-tree-view"
       "code-peek"
       "php-integrator-symbol-viewer"
       "autoclose-html"
+      "livereload"
+      "atom-autocomplete-php"
+      "activate-power-mode"
+      "symbols-view"
     ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -31,12 +35,14 @@
       "._*"
       "Thumbs.db"
       "node_modules"
+      "logs"
+      "public/assets"
     ]
     projectHome: "/Users/boris/Code"
   "custom-title":
     template: "<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   docblockr:
-    spacer_between_sections: true
+    return_description: false
   editor:
     fontFamily: "Operator Mono"
     fontSize: 12
@@ -49,12 +55,18 @@
   "file-icons": {}
   fonts:
     fontFamily: "PT Mono"
+  "fuzzy-finder":
+    ignoredNames: [
+      "storage/*"
+      "public/assets/*"
+      "public/build/*"
+    ]
   "genesis-ui":
     distractionFree: {}
   "glowing-cursor": {}
   jshint: {}
   linter:
-    errorPanelHeight: 27
+    errorPanelHeight: 220
     lintOnFly: false
   "linter-js-standard": {}
   minimap:
@@ -75,6 +87,8 @@
   "php-integrator-autocomplete-plus": {}
   "php-integrator-symbol-viewer": {}
   pigments: {}
+  "project-manager":
+    sortBy: "title"
   "seti-ui":
     themeColor: "Green"
   "todo-show":
@@ -86,7 +100,6 @@
     ]
   "tree-view":
     autoReveal: true
-    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
