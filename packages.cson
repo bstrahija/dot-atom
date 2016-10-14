@@ -37,6 +37,7 @@ packages: [
   "language-babel"
   "language-blade"
   "language-dots"
+  "language-generic-config"
   "language-ini"
   "language-markdown"
   "language-vue"
