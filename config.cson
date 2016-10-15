@@ -18,7 +18,6 @@
       "linter-scss-lint"
       "metrics"
       "exception-reporting"
-      "atom-typescript"
       "markdown-scroll-sync"
       "symbols-tree-view"
       "code-peek"
