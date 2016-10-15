@@ -7,7 +7,7 @@
     php:
       standard: "PSR2"
   "atom-ctags":
-    buildTimeout: 60000
+    buildTimeout: 360000
     cmdArgs: "--exclude=node_modules"
   core:
     disabledPackages: [
@@ -20,17 +20,19 @@
       "exception-reporting"
       "atom-typescript"
       "markdown-scroll-sync"
-      "imdone-atom"
       "symbols-tree-view"
       "code-peek"
-      "php-integrator-symbol-viewer"
-      "autoclose-html"
       "livereload"
       "atom-autocomplete-php"
       "activate-power-mode"
       "symbols-view"
+      "php-integrator-refactoring"
+      "autoclose-html"
+      "imdone-atom"
+      "php-integrator-symbol-viewer"
     ]
     excludeVcsIgnoredPaths: false
+    followSymlinks: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -38,11 +40,19 @@
       ".DS_Store"
       "._*"
       "Thumbs.db"
-      "node_modules"
       "logs"
-      "public/assets"
+      "**/public/assets/*"
+      "**/storage/framework/views/*"
+      "**/public/build/*"
+      ".tags"
+      ".tags1"
+      ".tags2"
+      ".tags3"
+      ".tags4"
+      ".tags*"
     ]
     projectHome: "/Users/boris/Code"
+    telemetryConsent: "limited"
   "custom-title":
     template: "<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   docblockr:
@@ -70,8 +80,9 @@
   "glowing-cursor": {}
   jshint: {}
   linter:
-    errorPanelHeight: 220
+    errorPanelHeight: 204
     lintOnFly: false
+  "linter-eslint": {}
   "linter-js-standard": {}
   minimap:
     plugins:
@@ -93,6 +104,7 @@
   pigments: {}
   "project-manager":
     sortBy: "title"
+  "remote-sync": {}
   "seti-ui":
     themeColor: "Green"
   "todo-show":
@@ -103,6 +115,7 @@
       "resources/assets/vendor/kode/"
     ]
   "tree-view":
+    hideIgnoredNames: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
