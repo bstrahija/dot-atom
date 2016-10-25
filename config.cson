@@ -79,12 +79,19 @@
   "glowing-cursor": {}
   jshint: {}
   linter:
-    errorPanelHeight: 204
+    errorPanelHeight: 200
     lintOnFly: false
     lintOnFlyInterval: 5000
   "linter-eslint": {}
   "linter-js-standard": {}
   "linter-phpcs":
+    excludedSniffs: [
+      "PSR2.ControlStructures.ControlStructureSpacing"
+      "Generic.Files.LineLength"
+      "Generic.ControlStructures.InlineControlStructure"
+      "Generic.Functions.FunctionCallArgumentSpacing"
+      "Squiz.Functions.MultilineFunctionDeclaration"
+    ]
     executablePath: "/usr/local/bin/phpcs"
   minimap:
     plugins:
