@@ -8,7 +8,7 @@
       standard: "PSR2"
   "atom-ctags":
     buildTimeout: 360000
-    cmdArgs: "--exclude=node_modules"
+    cmdArgs: "--exclude=node_modules --exclude=cache"
   core:
     disabledPackages: [
       "language-gfm"
@@ -24,11 +24,11 @@
       "livereload"
       "atom-autocomplete-php"
       "activate-power-mode"
-      "symbols-view"
       "php-integrator-refactoring"
       "autoclose-html"
       "imdone-atom"
       "php-integrator-symbol-viewer"
+      "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -81,8 +81,11 @@
   linter:
     errorPanelHeight: 204
     lintOnFly: false
+    lintOnFlyInterval: 5000
   "linter-eslint": {}
   "linter-js-standard": {}
+  "linter-phpcs":
+    executablePath: "/usr/local/bin/phpcs"
   minimap:
     plugins:
       "highlight-selected": true
@@ -122,3 +125,15 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".html.php.text":
+  editor:
+    tabLength: 4
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4

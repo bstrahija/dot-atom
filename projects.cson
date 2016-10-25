@@ -6,9 +6,6 @@
       "/Users/boris/Code/creo/varewo"
     ]
     icon: "icon-home"
-    settings: {}
-    devMode: false
-    template: null
     php:
       enabled: true
       php_integrator:
@@ -26,9 +23,6 @@
       "/Users/boris/Code/influendo/optimize-leads"
     ]
     icon: "icon-rocket"
-    settings: {}
-    devMode: false
-    template: null
     php:
       enabled: true
       php_integrator:
@@ -48,9 +42,6 @@
       "/Users/boris/Code/personal/kovozi"
     ]
     icon: "icon-versions"
-    settings: {}
-    devMode: false
-    template: null
     php:
       enabled: true
       php_integrator:
@@ -65,12 +56,8 @@
     title: "Skvosh.in"
     group: "Personal"
     paths: [
-      "/Users/boris/Code/personal/skvosh.in"
+      "/Users/boris/Code/personal/skvos"
     ]
-    icon: "icon-chevron-right"
-    settings: {}
-    devMode: false
-    template: null
     php:
       enabled: true
       php_integrator:
@@ -85,11 +72,14 @@
     title: "Mi2 / MaMa"
     group: "Creo"
     paths: [
-      "/Users/boris/Code/creo/mama"
+      "/Users/boris/Code/creo/mi2"
     ]
-    icon: "icon-chevron-right"
-    settings: {}
-    devMode: false
-    template: null
+  }
+  {
+    title: "Nisam"
+    group: "Personal"
+    paths: [
+      "/Users/boris/Code/personal/nisam"
+    ]
   }
 ]
