@@ -82,4 +82,57 @@
       "/Users/boris/Code/personal/nisam"
     ]
   }
+  {
+    title: "Influendo OptimizeBoard"
+    paths: [
+      "/Users/boris/Code/influendo/board"
+    ]
+    icon: "icon-browser"
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "HRFF"
+    paths: [
+      "/Users/boris/Code/creo/hrff"
+    ]
+  }
+  {
+    title: "TICM Meetup Blog"
+    paths: [
+      "/Users/boris/Code/personal/blog"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "Optimize Leads Plugin"
+    group: "Influendo"
+    paths: [
+      "/Users/boris/Code/influendo/optimize-leads-plugin"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
 ]
