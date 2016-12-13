@@ -26,8 +26,14 @@
       "activate-power-mode"
       "php-integrator-refactoring"
       "autoclose-html"
-      "imdone-atom"
       "php-integrator-symbol-viewer"
+      "linter-php"
+      "linter-phpcs"
+      "language-toml"
+      "language-clojure"
+      "language-csharp"
+      "language-mustache"
+      "language-objective-c"
       "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
@@ -36,6 +42,7 @@
       ".git"
       ".hg"
       ".svn"
+      ".idea"
       ".DS_Store"
       "._*"
       "Thumbs.db"
@@ -49,6 +56,30 @@
       ".tags3"
       ".tags4"
       ".tags*"
+      "**/node_modules/.bin"
+      "**/node_modules/abbrev"
+      "**/node_modules/accord"
+      "**/node_modules/acorn*"
+      "**/node_modules/ansi*"
+      "**/node_modules/anymatch"
+      "**/node_modules/are-we*"
+      ""
+      "**/node_modules/array-*"
+      "**/node_modules/arr-*"
+      "**/node_modules/async*"
+      "**/node_modules/babel-*"
+      "**/node_modules/browserify-*"
+      "**/node_modules/base*"
+      "**/node_modules/gulp-*"
+      "**/node_modules/has-*"
+      "**/node_modules/is-*"
+      "**/node_modules/lodash*"
+      "**/node_modules/node-*"
+      "**/node_modules/normalize-*"
+      "**/node_modules/parse-*"
+      "**/node_modules/path-*"
+      "**/node_modules/os-*"
+      "**/node_modules/postcss-*"
     ]
     projectHome: "/Users/boris/Code"
     telemetryConsent: "limited"
@@ -79,7 +110,8 @@
   "glowing-cursor": {}
   jshint: {}
   linter:
-    errorPanelHeight: 200
+    errorPanelHeight: 107
+    ignoreMatchedFiles: "/**/*.min.{js,css}, /**/*.blade.php, "
     lintOnFly: false
     lintOnFlyInterval: 5000
   "linter-eslint": {}
@@ -121,13 +153,16 @@
       "**/node_modules/"
       "**/vendor/"
       "**/bower_components/"
-      "resources/assets/vendor/kode/"
+      "**/resources/assets/vendor/kode/"
     ]
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 12
+    neverCloseUnsaved: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
