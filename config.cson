@@ -86,6 +86,8 @@
     ]
   "one-dark-ui":
     fontSize: 12
+  "package-sync":
+    createOnChange: true
   "tree-view": {}
   welcome:
     showOnStartup: false
