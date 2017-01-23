@@ -2,6 +2,7 @@
   core:
     disabledPackages: [
       "symbols-view"
+      "whitespace"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -63,7 +64,6 @@
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
-    tabType: "soft"
   "exception-reporting":
     userId: "69c0f9e9-a827-fb88-14c9-0d1a29c8b1d1"
   "fuzzy-finder":
@@ -91,7 +91,12 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".editorconfig.source":
+  editor:
+    showInvisibles: true
