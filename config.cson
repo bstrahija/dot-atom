@@ -1,39 +1,6 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "668aabdf-da30-44a6-88ee-9a8c4053e5f7"
-    html:
-      end_with_newline: true
-    php:
-      standard: "PSR2"
-  "atom-ctags":
-    buildTimeout: 360000
-    cmdArgs: "--exclude=node_modules --exclude=cache"
   core:
     disabledPackages: [
-      "language-gfm"
-      "wrap-guide"
-      "linter-csslint"
-      "linter-sass-lint"
-      "linter-scss-lint"
-      "metrics"
-      "exception-reporting"
-      "markdown-scroll-sync"
-      "symbols-tree-view"
-      "code-peek"
-      "livereload"
-      "atom-autocomplete-php"
-      "activate-power-mode"
-      "php-integrator-refactoring"
-      "autoclose-html"
-      "php-integrator-symbol-viewer"
-      "linter-php"
-      "linter-phpcs"
-      "language-toml"
-      "language-clojure"
-      "language-csharp"
-      "language-mustache"
-      "language-objective-c"
       "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
@@ -47,6 +14,8 @@
       "._*"
       "Thumbs.db"
       "logs"
+      "clockwork"
+      "storage/framework/cache"
       "**/public/assets/*"
       "**/storage/framework/views/*"
       "**/public/build/*"
@@ -81,8 +50,8 @@
       "**/node_modules/os-*"
       "**/node_modules/postcss-*"
     ]
-    projectHome: "/Users/boris/Code"
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
+    useCustomTitleBar: true
   "custom-title":
     template: "<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   docblockr:
@@ -90,32 +59,22 @@
   editor:
     fontFamily: "Operator Mono"
     fontSize: 12
-    invisibles: {}
     lineHeight: 3
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
-  "file-icons": {}
-  fonts:
-    fontFamily: "PT Mono"
+  "exception-reporting":
+    userId: "69c0f9e9-a827-fb88-14c9-0d1a29c8b1d1"
   "fuzzy-finder":
     ignoredNames: [
       "storage/*"
       "public/assets/*"
       "public/build/*"
     ]
-  "genesis-ui":
-    distractionFree: {}
-  "glowing-cursor": {}
-  jshint: {}
   linter:
-    errorPanelHeight: 107
-    ignoreMatchedFiles: "/**/*.min.{js,css}, /**/*.blade.php, "
+    errorPanelHeight: 123
     lintOnFly: false
-    lintOnFlyInterval: 5000
-  "linter-eslint": {}
-  "linter-js-standard": {}
   "linter-phpcs":
     excludedSniffs: [
       "PSR2.ControlStructures.ControlStructureSpacing"
@@ -123,59 +82,14 @@
       "Generic.ControlStructures.InlineControlStructure"
       "Generic.Functions.FunctionCallArgumentSpacing"
       "Squiz.Functions.MultilineFunctionDeclaration"
+      "Squiz.Functions.SpaceAfterKeyword"
     ]
-    executablePath: "/usr/local/bin/phpcs"
-  minimap:
-    plugins:
-      "highlight-selected": true
-      "highlight-selectedDecorationsZIndex": 0
-      pigments: true
-      pigmentsDecorationsZIndex: 0
   "one-dark-ui":
-    fontSize: 11
-  "package-sync":
-    createOnChange: true
-    forceOverwrite: true
-  "php-cs-fixer":
-    executablePath: "/Users/boris/.composer/vendor/fabpot/php-cs-fixer/php-cs-fixer"
-    runPhpWithoutAnyIni: true
-    showInfoNotifications: true
-  "php-integrator-autocomplete-plus": {}
-  "php-integrator-symbol-viewer": {}
-  pigments: {}
-  "project-manager":
-    sortBy: "title"
-  "remote-sync": {}
-  "seti-ui":
-    themeColor: "Green"
-  "todo-show":
-    ignoreThesePaths: [
-      "**/node_modules/"
-      "**/vendor/"
-      "**/bower_components/"
-      "**/resources/assets/vendor/kode/"
-    ]
-  "tree-view":
-    hideIgnoredNames: true
-    squashDirectoryNames: true
+    fontSize: 12
+  "tree-view": {}
   welcome:
     showOnStartup: false
-  zentabs:
-    maximumOpenedTabs: 12
-    neverCloseUnsaved: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
-".html.php.text":
-  editor:
-    tabLength: 4
-".js.regexp.replacement.source":
-  editor:
-    tabLength: 4
-".js.regexp.source":
-  editor:
-    tabLength: 4
-".js.source":
-  editor:
-    tabLength: 4
