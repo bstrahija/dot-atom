@@ -90,6 +90,7 @@
     fontSize: 12
   "package-sync":
     createOnChange: true
+    forceOverwrite: true
   "tree-view":
     hideIgnoredNames: true
   welcome:
