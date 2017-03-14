@@ -79,4 +79,68 @@
           "php"
         ]
   }
+  {
+    title: "Elementor"
+    group: "Test"
+    paths: [
+      "/Users/boris/Code/test/elementor"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "Mi2 MaMa"
+    group: "Creo"
+    paths: [
+      "/Users/boris/Code/creo/mi2"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "Creolab"
+    group: "Creo"
+    paths: [
+      "/Users/boris/Code/creo/creolab"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "Omniglot"
+    group: "Creo"
+    paths: [
+      "/Users/boris/Code/creo/omniglot"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
 ]
