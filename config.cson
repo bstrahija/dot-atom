@@ -84,11 +84,14 @@
       "Squiz.Functions.MultilineFunctionDeclaration"
       "Squiz.Functions.SpaceAfterKeyword"
     ]
+  "linter-ui-default": {}
+  minimap: {}
   "one-dark-ui":
     fontSize: 12
   "package-sync":
     createOnChange: true
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
   whitespace:
