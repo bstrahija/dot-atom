@@ -143,4 +143,36 @@
           "php"
         ]
   }
+  {
+    title: "Gdpr"
+    group: "Influendo"
+    paths: [
+      "/Volumes/Superhero/Code/influendo/gdpr"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
+  {
+    title: "Mini Identiteta"
+    group: "Creo"
+    paths: [
+      "/Volumes/Superhero/Code/creo/mini-identiteta"
+    ]
+    php:
+      enabled: true
+      php_integrator:
+        enabled: true
+        phpVersion: 5.6
+        excludedPaths: []
+        fileExtensions: [
+          "php"
+        ]
+  }
 ]

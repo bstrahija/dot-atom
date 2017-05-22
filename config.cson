@@ -1,8 +1,11 @@
 "*":
+  "autocomplete-plus":
+    maxVisibleSuggestions: 20
   core:
     disabledPackages: [
       "symbols-view"
       "whitespace"
+      "linter-markdown"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -51,8 +54,9 @@
       "**/node_modules/os-*"
       "**/node_modules/postcss-*"
     ]
+    restorePreviousWindowsOnStart: false
     telemetryConsent: "no"
-    useCustomTitleBar: true
+    titleBar: "custom"
   "custom-title":
     template: "<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   docblockr:
@@ -73,8 +77,8 @@
       "public/build/*"
     ]
   linter:
-    errorPanelHeight: 123
-    lintOnFly: false
+    lintOnChange: false
+    lintOnChangeInterval: 1000
   "linter-phpcs":
     excludedSniffs: [
       "PSR2.ControlStructures.ControlStructureSpacing"
@@ -84,13 +88,16 @@
       "Squiz.Functions.MultilineFunctionDeclaration"
       "Squiz.Functions.SpaceAfterKeyword"
     ]
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
   minimap: {}
   "one-dark-ui":
     fontSize: 12
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  pigments: {}
   "tree-view":
     hideIgnoredNames: true
   welcome:

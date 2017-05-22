@@ -1,7 +1,6 @@
 packages: [
   "atom-alignment"
   "atom-ctags"
-  "atom-material-ui"
   "autoclose-html"
   "busy-signal"
   "cdn-libs"
@@ -16,6 +15,8 @@ packages: [
   "intentions"
   "language-blade"
   "language-dots"
+  "language-haml"
+  "language-hosts"
   "language-htaccess"
   "language-ini"
   "language-vue"
